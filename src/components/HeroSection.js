@@ -13,9 +13,8 @@ const HeroSection = ({ myData }) => {
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+              your one-stop destination for all your electronic needs! 
+              Our store boasts an extensive collection of electronics, ranging from smartphones, laptops, tablets, and smartwatches to cameras, audio devices, gaming consoles, and home appliances.
             </p>
             <NavLink>
               <Button>SHOP NOW</Button>

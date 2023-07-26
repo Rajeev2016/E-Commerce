@@ -1,21 +1,19 @@
-import React, { useContext } from "react";
 import HeroSection from "./components/HeroSection";
-import { AppContext } from "./context/productcontex";
-
+import { useProductContext } from "./context/productcontex";
 
 const About = () => {
-  const { myName } = useContext(AppContext)
+  const { myName } = useProductContext();
+
   const data = {
     name: "Sharma Electronics",
   };
- 
-  return(
-  <>
-  { myName }
-  <h1>about</h1>
-  <HeroSection myData={data} />;
-  </>
-  )
+
+  return (
+    <>
+      {myName}
+      <HeroSection myData={data} />
+    </>
+  );
 };
 
 export default About;
