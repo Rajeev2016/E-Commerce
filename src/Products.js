@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import FilterSection from "./components/FilterSection";
+import FilterSection from "./components/FilterSection";
 import ProductList from "./components/ProductList";
 import Sort from "./components/Sort";
 import { useFilterContext } from "./context/filter_contex";
@@ -9,7 +9,7 @@ const Products = () => {
     <Wrapper>
       <div className="container grid grid-filter-column">
         <div>
-          {/* <FilterSection /> */}
+          <FilterSection />
         </div>
 
         <section className="product-view--sort">
